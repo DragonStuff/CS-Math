@@ -49,3 +49,7 @@ _If x = -1 then x² - 1 = 0 x² = 1_
 __The statement is false.__
 
 
+___
+___
+
+1. The truth table of the statement (P ^ Q) V (~P V (~
