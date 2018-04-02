@@ -8,11 +8,11 @@ ___
 
 The purpose of logical connectives is to form statements.
 
-~P == !P == NOT P    
-P v Q == (P && Q) == P OR Q    
-P ^ Q == (P & Q) == P AND Q    
-P => Q == ((P & Q) && (P == FALSE & Q == FALSE) && (P == FALSE & Q == TRUE)) == P IMPLIES Q    
-P <=> Q == (P == Q) == P IF AND ONLY IF Q
+    ~P == !P == NOT P    
+    P v Q == (P && Q) == P OR Q    
+    P ^ Q == (P & Q) == P AND Q    
+    P => Q == ((P & Q) && (P == FALSE & Q == FALSE) && (P == FALSE & Q == TRUE)) == P IMPLIES Q    
+    P <=> Q == (P == Q) == P IF AND ONLY IF Q
 
 _Note: P <=> Q is the logical version of the one above it. Each value can only be true if the other value is, and vice versa._    
 _Note: The P => Q connective can be simplified to the following:_    
