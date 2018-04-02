@@ -33,16 +33,16 @@ _If x² = 9, then x = 1 or x = -1._
 _If x = 1 then x² - 1 = 0 x² = 1_    
 _If x = -1 then x² - 1 = 0 x² = 1_
 
-  x = [1, -1];
-  for (n in x) {
-    if (x*x = 9) {
-      print("This will never be true.");
-      return true;
-    } else {
-      return false;
+    x = [1, -1];
+    for (n in x) {
+      if (x*x = 9) {
+        print("This will never be true.");
+        return true;
+      } else {
+        return false;
+      }
     }
-  }
-  return 0;
+    return 0;
   
 
 __The statement is false.__
