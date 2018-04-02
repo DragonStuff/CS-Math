@@ -10,8 +10,14 @@ The purpose of logical connectives is to form statements.
 
 ~P == !P == NOT P    
 P v Q == (P && Q) == P OR Q    
-P ^ Q == (P & Q) == P AND Q
-P => Q == 
+P ^ Q == (P & Q) == P AND Q    
+P => Q == ((P & Q) && (P == FALSE & Q == FALSE) && (P == FALSE & Q == TRUE)) == P IMPLIES Q    
+_Note: The above statement can be simplified to the following:_    
+_If it is raining then there are clouds in the sky_    
+_In this case P=It is raining, and Q=There are clouds in the sky. Note that P is sufficient to conclude Q, and Q is necessary for P. There is no rain without clouds, and if there are no clouds then there cannot be any rain._    
+_However, note that P is not necessary for Q. There could be light clouds without any rain, and there could be clouds of snow and blizzard (which is technically not rain)._    
+P <=> Q == (P == Q) == P IF AND ONLY IF Q
+Note: This is the logical version of the one above it. Each value can only be true if the other value is, and vice versa.
 
 
 ### Statements
