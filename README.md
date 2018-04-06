@@ -53,3 +53,6 @@ ___
 ___
 
 1. The truth table of the statement (P ^ Q) V (~P V (~
+
+
+Further updates soon.
